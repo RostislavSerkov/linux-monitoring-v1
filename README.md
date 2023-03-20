@@ -24,7 +24,7 @@ The russian version of the task can be found in the repository.
 
 Planet Earth, USA, California, nowadays.
 
-You have been working late, as usual, to avoid driving home through rush hour traffic.
+John have been working late, as usual, to avoid driving home through rush hour traffic.
 You think there is no one else in the office but you, until you hear noises from the office next door.
 You don't pay much attention to it, any colleague might have stayed late to finish his business.
 Suddenly you hear a yell from that very office (your colleague obviously thought he was alone):
@@ -229,8 +229,8 @@ You pack up your stuff and, on your way out of the office, you looked into the r
 The door opened and, after a short conversation, you handed the inexperienced sysadmin a flash drive with the scripts.
 You said goodbye and were about to leave when you remembered an important detail.
 
-`-` Oh, I completely forgot to ask. What's your name?
+`-` Oh, I completely forgot. I'am John by the way. And what's your name?
 
 `-` Sebastian.
 
-💡 [Tap here](https://forms.yandex.ru/u/6357f484068ff03389ed9b96/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
+💡 [Tap here](https://forms.yandex.ru/cloud/6418187c73cee70bbf478995/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.

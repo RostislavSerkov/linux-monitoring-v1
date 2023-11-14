@@ -233,4 +233,4 @@ You said goodbye and were about to leave when you remembered an important detail
 
 `-` Sebastian.
 
-💡 [Tap here](https://forms.yandex.ru/cloud/6418187c73cee70bbf478995/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
+💡 [Tap here](https://forms.yandex.ru/cloud/6418187c73cee70bbf478995/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.

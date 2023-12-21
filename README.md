@@ -33,7 +33,7 @@ Suddenly you hear a yell from that very office (your colleague obviously thought
 
 You quickly realise that this is your new system administrator, hired just a couple of weeks ago. At the initiative of your teammate Mike, Linux have been installed on several machines in the office.
 Your sysadmin is really trying, he's just unlucky to get a job now. \
-"Poor guy. -- you thought. -- I should try to help him, since I have the time!"
+"Poor guy," you thought. "I should try to help him, since I have the time!"
 
 You go to Mike's desk and do something bad: you look in his drawer. You are lucky to find exactly what you were looking for: clippings from articles about bash and shell.
 

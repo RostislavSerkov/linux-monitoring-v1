@@ -24,18 +24,16 @@ The russian version of the task can be found in the repository.
 
 Planet Earth, USA, California, nowadays.
 
-John have been working late, as usual, to avoid driving home through rush hour traffic.
-You think there is no one else in the office but you, until you hear noises from the office next door.
-You don't pay much attention to it, any colleague might have stayed late to finish his business.
-Suddenly you hear a yell from that very office (your colleague obviously thought he was alone):
+John (that's you) was working late as usual to avoid having to drive home in the rush hour traffic.
+You thought you were the only one in the office, until you heard noises coming from the office next door.
+You didn't pay much attention, it could just be a colleague staying late to finish their business.
+Suddenly you heard a scream coming from that very office (your colleague obviously thought he was alone), "Ugh, I am so tired of collecting system information by hand from these computers on Linux. I probably should have learned it better before applying for the job."
 
-`-` Ugh, I am so tired of collecting system information by hand from these computers on Linux. I probably should have learned it better before applying for the job.
-
-You quickly realise that this is your new system administrator, hired just a couple of weeks ago. At the initiative of your teammate Mike, Linux have been installed on several machines in the office.
-Your sysadmin is really trying, he's just unlucky to get a job now. \
+You quickly realised that this was your new system administrator, who had been hired just a few weeks before. On the initiative of your colleague Mike, Linux has been installed on several machines in the office.
+That sysadmin is really trying, he's just unlucky to get a job now. \
 "Poor guy," you thought. "I should try to help him, since I have the time!"
 
-You go to Mike's desk and do something bad: you look in his drawer. You are lucky to find exactly what you were looking for: clippings from articles about bash and shell.
+You went to Mike's desk and did something bad: looked in his drawer. Luckily, you found exactly what you're looking for: clippings of articles about Bash and Shell. 
 
 ## Chapter II
 
@@ -43,11 +41,11 @@ You go to Mike's desk and do something bad: you look in his drawer. You are luck
 
 >Bash is the shell, or command language interpreter, for the GNU operating system.
 >
->The name is an acronym for the ‘Bourne-Again SHell’, a pun on Stephen Bourne, the author of the direct ancestor of the current Unix shell sh, which appeared in the Seventh Edition Bell Labs Research version of Unix.
+>The name is an acronym for "Bourne-Again SHell", a pun on Stephen Bourne, the author of the direct ancestor of the current Unix shell, sh, which appeared in the Seventh Edition Bell Labs Research version of Unix.
 >
->Bash is largely compatible with sh and incorporates useful features from the Korn shell ksh and the C shell csh. It is intended to be a conformant implementation of the IEEE POSIX Shell and Tools portion of the IEEE POSIX specification (IEEE Standard 1003.1). It offers functional improvements over sh for both interactive and programming use.
+>Bash is largely compatible with sh and incorporates useful features from the Korn shell ksh and the C shell csh. It is intended to be a compliant implementation of the IEEE POSIX Shell and Tools portion of the IEEE POSIX specification (IEEE Standard 1003.1). It provides functional improvements over sh for both interactive and programming use.
 >
->While the GNU operating system provides other shells, including a version of csh, Bash is the default shell. Like other GNU software, Bash is quite portable. It currently runs on nearly every version of Unix and a few other operating systems - independently-supported ports exist for MS-DOS, OS/2, and Windows platforms.
+>While the GNU operating system provides other shells, including a version of csh, Bash is the default shell. Like other GNU software, Bash is quite portable. It currently runs on almost every version of Unix and a few other operating systems - independently supported ports exist for MS-DOS, OS/2 and Windows platforms.
 
 ### Shell
 
@@ -57,22 +55,22 @@ You go to Mike's desk and do something bad: you look in his drawer. You are luck
 >
 >Shells may be used interactively or non-interactively. In interactive mode, they accept input typed from the keyboard. When executing non-interactively, shells execute commands read from a file.
 >
->A shell allows execution of GNU commands, both synchronously and asynchronously.
+>A shell allows GNU commands to be executed both synchronously and asynchronously.
 >
->While executing commands is essential, most of the power (and complexity) of shells is due to their embedded programming languages. Like any high-level language, the shell provides variables, flow control constructs, quoting, and functions.
+>While command execution is essential, most of the power (and complexity) of shells comes from the programming languages they contain. Like any high-level language, the shell provides variables, flow control constructs, quoting, and functions.
 >
->Shells offer features geared specifically for interactive use rather than to augment the programming language. These interactive features include job control, command line editing, command history and aliases.
+>Shells provide features specifically designed for interactive use, rather than to extend the programming language. These interactive features include job control, command line editing, command history and aliases.
 
-There was a folder labeled "materials" underneath the article clippings in Mike's drawer. As you looked in it, you found several sheets describing the features of the bash scripts.
+In Mike's drawer, there was a folder labelled "Materials" under the article clippings. When you looked in it, you found several sheets describing the features of bash scripts.
 
 ## Chapter III
 
-- The written bash scripts must be in the src folder
-- For each task you must create a folder with the following name: **0x**, where x is the task number.
-- All scripts must be decomposed and split into several files
-- The main script file for each task must be named **main.sh**
-- All scripts should have checks for incorrect input (not all parameters specified, wrong format parameters, etc.)
-- All scripts must be run on a virtual machine *Ubuntu Server 20.04 LTS*
+- The written bash scripts must be in the src folder;
+- For each task you must create a folder with the following name: **0x**, where x is the task number;
+- All scripts must be decomposed and split into several files;
+- The main script file for each task must be named **main.sh**;
+- All scripts should have checks for incorrect input (not all parameters specified, wrong format parameters, etc.);
+- All scripts must be run on a virtual machine *Ubuntu Server 20.04 LTS*.
 
 ## Part 1. First effort
 
@@ -220,17 +218,17 @@ Script execution time (in seconds) = 1.5
 ## Chapter IV
 
 Well, now you've done all the work you wanted to do. You had to stay a little longer than usual, but it was worth it.
-You pack up your stuff and, on your way out of the office, you looked into the room where you heard your colleague earlier.
+You pack up your things and on your way out of the office you look into the room where you heard your colleague earlier.
 
-`-` Hey, may I come in? - you knocked on the door.
+"Hey, may I come in?" you knocked on the door.
 
-`-` Yes... just a second. I didn't think there was anyone else here at this hour.
+"Yes... just a second. I didn't think there was anyone else here at this hour."
 
-The door opened and, after a short conversation, you handed the inexperienced sysadmin a flash drive with the scripts.
+The door opened and, after a brief chat, you handed the inexperienced sysadmin a flash drive containing the scripts.
 You said goodbye and were about to leave when you remembered an important detail.
 
-`-` Oh, I completely forgot. I'am John by the way. And what's your name?
+"Oh, I completely forgot. I'am John by the way. And what's your name?"
 
-`-` Sebastian.
+"Sebastian."
 
 💡 [Tap here](https://forms.yandex.ru/cloud/6418187c73cee70bbf478995/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.

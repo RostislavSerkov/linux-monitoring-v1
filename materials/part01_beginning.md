@@ -5,7 +5,7 @@ In the first line, we need to specify what kind of shell we are going to use. We
 #!/bin/bash
 ```
 
-Other lines in this file use a hash character to indicate comments that the shell does not handle. However, the first line is a special case, with a hash followed by an exclamation mark (this sequence is called a shebang)
+Other lines in this file use a hash character to indicate comments that the shell does not handle. However, the first line is a special case, with a hash followed by an exclamation mark (this sequence is called a shebang).
 
 Shell commands are separated by a newline character. This is how it looks like:
 ```shell
@@ -15,7 +15,7 @@ pwd
 whoami
 ```
 
-To run the script, you need to give the script an execute permission. To do this, run this command in the terminal:
+To run the script, you must give it execute permission. To do this, run this command in a terminal:
 
 ```shell
 chmod +x ./myscript
@@ -36,8 +36,8 @@ echo "Hello World"
 ### Variables
 
 There are two types of variables that can be used in bash scripts:
-- Environment variables
-- User variables
+- Environment variables;
+- User variables.
 
 Environment variables store some system data, such as the current user's home directory:
 ```shell
@@ -61,7 +61,7 @@ The bash script allows you to get information from the command output and assign
 There are two ways to do this:
 
 - Using the reverse apostrophe character "`".
-- Using the $() construction
+- Using the $() construction.
 
 So, saving the output of the pwd command to the mydir variable could look like this:
 ```shell
@@ -109,20 +109,20 @@ fi
 ### Comparison
 
 Numerical values can be compared in scripts. Here is a list of corresponding commands:
-- n1 -eq n2 -- Returns true value if n1 equals n2.
-- n1 -ge n2 -- Returns true value if n1 is greater than or equal to n2.
-- n1 -gt n2 -- Returns true value if n1 is greater than n2.
-- n1 -le n2 -- Returns true value if n1 is less than or equal to n2.
-- n1 -lt n2 -- Returns true value if n1 is less than n2.
-- n1 -ne n2 -- Returns true value if n1 is not equal to n2.
+- n1 -eq n2 — Returns true value if n1 equals n2.
+- n1 -ge n2 — Returns true value if n1 is greater than or equal to n2.
+- n1 -gt n2 — Returns true value if n1 is greater than n2.
+- n1 -le n2 — Returns true value if n1 is less than or equal to n2.
+- n1 -lt n2 — Returns true value if n1 is less than n2.
+- n1 -ne n2 — Returns true value if n1 is not equal to n2.
 
 String values can also be compared in scripts. Here is a list of operators:
-- str1 = str2 -- Checks strings for equality, returns true if strings are identical.
-- str1 != str2 -- Returns true if strings are not identical.
-- str1 < str2 -- Returns true if str1 is less than str2.
-- str1 > str2 -- Returns true if str1 is greater than str2.
-  -n str1 -- Returns true if str1 length is greater than zero.
-  -z str1 -- Returns true if str1 length is zero.
+- str1 = str2 — Checks strings for equality, returns true if strings are identical.
+- str1 != str2 — Returns true if strings are not identical.
+- str1 < str2 — Returns true if str1 is less than str2.
+- str1 > str2 — Returns true if str1 is greater than str2.
+  -n str1 — Returns true if str1 length is greater than zero.
+  -z str1 — Returns true if str1 length is zero.
 
 An example of performing comparison operations:
 ```shell
@@ -158,17 +158,17 @@ fi
 ### File checks
 
 The following commands allow you to check various file conditions:
-- -d file -- Checks if file exists and is a directory.
-- -e file -- Checks if file exists.
-- -f file -- Checks if file exists and is a file.
-- -r file -- Checks if file exists and is readable.
-- -s file -- Checks if file exists and is not empty.
-- -w file -- Checks if file exists and is writable.
-- -x file -- Checks if file exists and is executable.
-- -file1 -nt file2 -- Checks if file1 is newer than file2.
-- -file1 -ot file2 -- Checks if file1 is older than file2.
-- -O file -- Checks if file exists and if the current user owns it.
-- -G file -- Checks if file exists and if its group ID matches the current user's group ID.
+- -d file — Checks if file exists and is a directory.
+- -e file — Checks if file exists.
+- -f file — Checks if file exists and is a file.
+- -r file — Checks if file exists and is readable.
+- -s file — Checks if file exists and is not empty.
+- -w file — Checks if file exists and is writable.
+- -x file — Checks if file exists and is executable.
+- -file1 -nt file2 — Checks if file1 is newer than file2.
+- -file1 -ot file2 — Checks if file1 is older than file2.
+- -O file — Checks if file exists and if the current user owns it.
+- -G file — Checks if file exists and if its group ID matches the current user's group ID.
 
 As an example, here is a script that outputs the contents of an existing directory:
 ```shell

@@ -1,12 +1,12 @@
-Hello, student of School21!😉
+Hello, School21 student! 😉
 
-To make it easier for you to navigate the material, we have prepared a list of topics that you will learn in this project.
+To help you navigate through the material, we have prepared a list of topics that you will learn in this project.
 
-We will study:
+We will learn:
 
-- bash sripts;
-- read information about system;
+- bash scripts;
+- reading information about the system;
 - decorated console output;
-- working with linux filesystem.
+- working with the Linux file system.
 
-Now, knowing what awaits you in this project, you can slowly begin to study the topics listed above.😇
+Now that you know what awaits you in this project, you can slowly begin to study the topics listed above. 😇

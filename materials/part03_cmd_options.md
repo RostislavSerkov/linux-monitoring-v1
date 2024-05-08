@@ -6,12 +6,12 @@ $ ./myscript 10 20
 ```
 
 The bash shell assigns special variables, called position parameters, to the command line parameters entered when the script is called:
-- $0 - name of the script.
-- $1 - first parameter.
-- $2 - second parameter.
+- $0 — name of the script;
+- $1 — first parameter;
+- $2 — second parameter;
 - ...
-- $9 - ninth parameter.
-- ${10} - tenth parameter.
+- $9 — ninth parameter;
+- ${10} — tenth parameter.
 
 Here's how you can use the command line parameters in a script using these variables:
 ```shell
@@ -97,6 +97,7 @@ Found the -c option
 ```
 
 This code uses a case construct that checks the option passed to it against the list of options handled by the script.
+
 If the passed value is found in this list, the appropriate branch of code is executed. If any option is used when calling the script, the "*" branch will be executed.
 
 ### How to distinguish options and parameters
@@ -111,7 +112,7 @@ case "$1" in
 -a) echo "Found the -a option" ;;
 -b) echo "Found the -b option";;
 -c) echo "Found the -c option" ;;
---) shift
+—) shift
 break ;;
 *) echo "$1 is not an option";;
 esac
@@ -163,7 +164,7 @@ When writing bash scripts you can select any letters for the command line option
 - -s -- Execute the script in silent mode.
 - -v -- Execute verbose output.
 - -x -- Exclude item.
-- -y -- Answer «yes» to all questions.
+- -y -- Answer "yes" to all questions.
 
 ### Receiving data from the user
 

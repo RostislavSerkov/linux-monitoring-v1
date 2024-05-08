@@ -32,9 +32,9 @@ In the previous example, all list items, within a file, are separated by spaces,
 There is a special environment variable called IFS (Internal Field Separator) to specify field separators.
 
 By default, the bash shell considers the following characters as field separators:
-- Space
-- Tab character
-- Line feed character
+- space,
+- tab character,
+- line feed character.
 
 If bash sees any of these characters in the data, it assumes it is the next independent value in the list.
 

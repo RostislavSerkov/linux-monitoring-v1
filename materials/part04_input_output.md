@@ -2,9 +2,9 @@
 
 Each process can have nine file descriptors opened at the same time.
 The bash shell reserves the first three descriptors with identifiers 0, 1 and 2. This is what they mean:
-- 0, STDIN - standard input stream.
-- 1, STDOUT - standard output stream.
-- 2, STDERR - standard error stream.
+- 0, STDIN — standard input stream;
+- 1, STDOUT — standard output stream;
+- 2, STDERR — standard error stream.
 
 ### STDIN
 

@@ -15,6 +15,3 @@ validate_param(){
         exit 1
     fi
 }
-
-
-

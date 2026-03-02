@@ -7,3 +7,4 @@ source "$SCRIPT_DIR/validate.sh"
 validate_param "$@"
 
 echo "$1"
+

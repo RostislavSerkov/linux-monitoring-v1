@@ -40,11 +40,10 @@ collect_info() {
     }
 
     MASK=$(cidr_to_mask "$PREFIX")
-
 }
 
 print_sysinfo() {
-    local p1=$1 p2=$2 p3=$3 p4=$4
+    local p1=$column1_background p2=$column1_font_color p3=$column2_background p4=$column2_font_color
     collect_info
 
     printe "HOSTNAME"        "$HOSTNAME"        $p1 $p2 $p3 $p4

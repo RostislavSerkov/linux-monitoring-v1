@@ -1,8 +1,8 @@
 #!/bin/bash
 
-NAME="$(cd "$(dirname "$0")" && pwd)"
-source "$NAME/color.sh"
-source "$NAME/sys_info.sh"
+#NAME="$(cd "$(dirname "$0")" && pwd)"
+source "color.sh"
+source "sys_info.sh"
 
 if [ "$#" -ne 4 ];then
     echo "Ошибка"
